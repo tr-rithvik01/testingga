@@ -24,5 +24,4 @@ jobs:
         # pip install -r requirements.txt
     - name: Test with pytest
       run: |
-        # This will run pytest. If you have no tests, it will still pass.
-        pytest
+        pytest --no-tests-found-exit-code=0
